@@ -83,11 +83,14 @@ body,
   p {
     font-size: 12px;
     margin-bottom: -10px;
+    padding-right: 35px;
+    padding-left: 35px;
+
   }
 
   .fas {
     font-size: 40px!important;
-    margin-top: 7vw!important;
+    margin-top: 5vw!important;
     margin-bottom: 5%!important;
     width: 130px!important;
   }
