@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <i class="fas fa-money-bill-wave mx-auto"></i>
+    <h1 class="currencyTitle">Currency Conversion Calculator</h1>
+    <div class="mx-auto" style="max-width:700px " class="desc">
+      <p style="text-align: center; color: grey;">
+        Free Online Currency Converter Convert your is a simple currency
+        converter that. This is an application built to help you calculate
+        currencies on the fly! Go ahead and give it a try.
+      </p>
+      <br />
+    </div>
+
+    <div class="container">
+      <div class="col-lg-6">
+        <input id="myText" value="1" type="text" name="Amount" />
+        <select
+          id="from"
+          style="width: 100%;"
+          class="browser-default custom-select"
+          onchange="convertCurrency()"
+        >
+          <option value="USD" selected>USD - United States Dollar</option>
+          <option value="VND">VND - Vietnamese Dong</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="AUD">AUD - Australian Dollar</option>
+          <option value="KRW">KRW - South Korean Wong</option>
+        </select>
+      </div>
+      <h1 class="equals">=</h1>
+      <div class="col-lg-6">
+        <input id="myResult" value="" type="text" name="Amount" readonly />
+        <select
+          id="to"
+          style="width: 100%;"
+          class="browser-default custom-select"
+          onchange="convertCurrency()"
+        >
+          <option class="red" value="USD">USD - United States Dollar</option>
+          <option value="VND" selected>VND - Vietnamese Dong</option>
+          <option value="EUR">EUR - Euro</option>
+          <option value="AUD">AUD - Australian Dollar</option>
+          <option value="KRW">KRW - South Korean Wong</option>
+        </select>
+      </div>
+    </div>
+    <div class="resultArea">
+      <br />
+      <br />
+
+      <!-- <button type="submit" id="submit">ConvertButton</button> -->
+      <br />
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
