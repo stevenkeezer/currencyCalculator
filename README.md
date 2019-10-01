@@ -29,6 +29,6 @@ Let's build a currency calculating 📰 app 📱. This will help us in our under
      - `async` - Tells JS that a function is **asynchronous**.
      - `await` - Tells JS that this line will **take a few moments**.
      
-![Alt Text](https://media.giphy.com/media/gh0jopsBYVf2oZnwpn/giphy.gif)
+![Alt Text](https://media.giphy.com/media/fVzWAFusmy6s8vBShz/giphy.gif)
 
-Demo: https://inspiring-mclean-a99545.netlify.com/.
+Demo: https://inspiring-mclean-a99545.netlify.com/
