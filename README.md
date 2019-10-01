@@ -6,7 +6,7 @@ Let's build a currency calculating 📰 app 📱. This will help us in our under
 
 ### Features 🎯🥇🏆
 
-- [ ] The user can calculate currency loaded with current exchange rates loaded from an API.
+- [ ] The user can calculate currency with current exchange rates loaded from an API.
 - [ ] The user can choose to calculate 5 different kinds of currency.
 - [ ] When the user changes content in the application you can see the changes in the results in realtime.
 - [ ] If the user pushes the "read more" button then the app opens up the article in the phones default browser.
