@@ -94,6 +94,10 @@ body,
     margin-bottom: 5%!important;
     width: 130px!important;
   }
+
+  select {
+      font-size: 12px;
+  }
 }
 
 
