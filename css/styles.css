@@ -81,7 +81,7 @@ body,
   }
 
   p {
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: -10px;
   }
 
@@ -90,7 +90,6 @@ body,
     margin-top: 7vw!important;
     margin-bottom: 5%!important;
     width: 130px!important;
-
   }
 }
 
